@@ -18,7 +18,8 @@
 
 ```bash
 git clone https://github.com/yourusername/magic-love.git
-cd magic-love ```
+cd magic-love
+```
 
 
 ## 🛠️ Technologies Used
@@ -26,4 +27,10 @@ cd magic-love ```
 - HTML5: For the structure of the web app.
 - CSS3: For styling the elements with a touch of magic.
 - JavaScript: For handling the interactivity and animations.
+
+ ## 🙌 Contributing
+Feel free to contribute to this project by submitting issues or pull requests. Let's make Magic 💌 Love even more enchanting together!
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
