@@ -18,7 +18,7 @@
 
 ```bash
 git clone https://github.com/yourusername/magic-love.git
-cd magic-love `
+cd magic-love ```
 
 
 ## 🛠️ Technologies Used
