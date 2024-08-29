@@ -2,7 +2,7 @@
 
 ✨ **Magic 💌 Love** is a fun and interactive web app that adds a touch of magic to your love notes! This project combines lovely visuals with draggable paper elements, making your messages more engaging and memorable.
 
-![alt text]()
+![alt text](https://github.com/himanshu-tyd/Love-Magic/blob/main/images/onboarding2.png)
 
 ## 🌟 Features
 
@@ -18,4 +18,12 @@
 
 ```bash
 git clone https://github.com/yourusername/magic-love.git
-cd magic-love
+cd magic-love 
+
+
+## 🛠️ Technologies Used
+
+- HTML5: For the structure of the web app.
+- CSS3: For styling the elements with a touch of magic.
+- JavaScript: For handling the interactivity and animations.
+
