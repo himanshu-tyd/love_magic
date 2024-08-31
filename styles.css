@@ -3,9 +3,18 @@
 
 
 body {
-
   background-image: url("images/bg.jpeg");
   background-size: cover;
+}
+
+@keyframes drag{
+  0% {
+    transform: translateX(0); /* Start at the center */
+  }
+  100%{
+    transform: translateX(15rem) ;
+  }
+ 
 }
 
 @keyframes glow{
@@ -35,7 +44,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: fixed;
+}
+
+.popup{
+  text-align:center;
+  align-content: center;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  animation: drag 2s infinite ;
+
+
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( .4px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 100px;
+  border:3px solid rgba(52, 52, 52, 0.226);
 }
 
 .jisoo {

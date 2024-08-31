@@ -1,6 +1,14 @@
 let highestZ = 1;
 let rotate = 0;
 
+function popupEnd(){
+  const El=document.querySelector('.popup')
+
+  El.style.display='none';
+
+}
+
+
 class Paper {
   holdingPaper = false;
 
@@ -9,6 +17,7 @@ class Paper {
 
   startX = 0;
   startY = 0;
+
 
   init(paper) {
     document.addEventListener("DOMContentLoaded", () => {
@@ -19,6 +28,7 @@ class Paper {
 
     // Combined event listener for mousedown and touchstart
     const startDrag = (e) => {
+      popupEnd()
       this.holdingPaper = true;
 
       const event = e.touches ? e.touches[0] : e; // Handle touch event or mouse event
